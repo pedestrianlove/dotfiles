@@ -1,0 +1,3 @@
+# Set Window border and hide the title bar
+default_border none
+default_floating_border none
