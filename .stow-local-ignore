@@ -1,0 +1,8 @@
+\.git
+\.gitignore
+\.gitsubmodule
+
+
+^/README.*
+^/LICENSE.*
+^/COPYING
