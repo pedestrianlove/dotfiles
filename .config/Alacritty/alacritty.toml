@@ -1,4 +1,4 @@
-import = ["/Users/jsl/.config/alacritty/catppuccin/catppuccin-mocha.toml"]
+import = ["catppuccin/catppuccin-mocha.toml"]
 
 [font]
 size = 20
