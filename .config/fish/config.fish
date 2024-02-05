@@ -25,5 +25,5 @@ if status is-interactive
     alias thu="sudo openconnect --protocol=nc thuvpn.twaren.net"
 
     # Custom keybindings
-    bind \cf ~/Work/tmux-sessionizer
+    bind \cf ~/.config/tmux-sessionizer
 end
