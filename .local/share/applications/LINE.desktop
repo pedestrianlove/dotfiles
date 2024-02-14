@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=LINE
+GenericName=LINE
+Comment=A messenger.
+
+Type=Application
+TryExec=chromium --enable-wayland-ime --app=chrome-extension://ophjlpahpchlmihnnnihgmmeilfjmjjc/index.html
+Exec=chromium --enable-wayland-ime --app=chrome-extension://ophjlpahpchlmihnnnihgmmeilfjmjjc/index.html
+Icon=LINE
+Terminal=false
+
