@@ -1,0 +1,23 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+
+
+# Fcitx Settings
+#GTK_IM_MODULE=fcitx
+QT_IM_MODULE=fcitx
+XMODIFIERS=@im=fcitx
+
+# Wayland Settings
+## Generic
+WLR_NO_HARDWARE_CURSORS=1
+WLR_RENDERER=vulkan
+XWAYLAND_NO_GLAMOR=1
+## Firefox
+MOZ_ENABLE_WAYLAND=1
+MUTTER_DEBUG_ENABLE_ATOMIC_KMS=0
+CLUTTER_PAINT=disable-dynamic-max-render-time
+
+
