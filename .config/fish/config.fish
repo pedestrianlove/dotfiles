@@ -26,4 +26,5 @@ if status is-interactive
 
     # Custom keybindings
     bind \cf ~/.config/tmux-sessionizer
+    source /opt/asdf-vm/asdf.fish
 end

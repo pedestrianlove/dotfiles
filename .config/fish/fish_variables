@@ -41,4 +41,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dbrblack
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/home/jsl/\x2elocal/bin
+SETUVAR fish_user_paths:/home/jsl/\x2ecargo/bin\x1e/home/jsl/\x2econfig/composer/vendor/bin\x1e/home/jsl/\x2elocal/bin
