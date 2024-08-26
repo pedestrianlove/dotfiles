@@ -1,0 +1,37 @@
+### ============================================================================ ###
+###                               My Settings                                    ###
+### ============================================================================ ###
+
+## show/hide desktop (顯示/隱藏桌面)
+cmd - return : alacritty
+cmd - f2 : firefox
+
+## focus window
+cmd - left : sh ./scripts/focusWindow.sh left
+cmd - right : sh ./scripts/focusWindow.sh right
+cmd - up : sh ./scripts/focusWindow.sh up
+cmd - down : sh ./scripts/focusWindow.sh down
+
+## Rotate windows clockwise and anticlockwise
+alt + cmd - r         : yabai -m space --rotate 270
+shift + alt + cmd - r : yabai -m space --rotate 90
+
+## send window to next space on and follow focus
+cmd + shift - left : sh ./scripts/moveWindowToLeft.sh space
+cmd + shift - right : sh ./scripts/moveWindowToRight.sh space
+
+## send window to specify space
+cmd + shift - 1 : sh ./scripts/moveWindowToLeft.sh 1
+cmd + shift - 2 : sh ./scripts/moveWindowToLeft.sh 2
+cmd + shift - 3 : sh ./scripts/moveWindowToLeft.sh 3
+cmd + shift - 4 : sh ./scripts/moveWindowToLeft.sh 4
+cmd + shift - 5 : sh ./scripts/moveWindowToLeft.sh 5
+cmd + shift - 6 : sh ./scripts/moveWindowToLeft.sh 6
+cmd + shift - 7 : sh ./scripts/moveWindowToLeft.sh 7
+cmd + shift - 8 : sh ./scripts/moveWindowToLeft.sh 8
+cmd + shift - 9 : sh ./scripts/moveWindowToLeft.sh 9
+
+## focus display
+ctrl + alt - 1 : yabai -m window --display 1 ; yabai -m display --focus 1
+ctrl + alt - 2 : yabai -m window --display 2 ; yabai -m display --focus 2
+ctrl + alt - 3 : yabai -m window --display 3 ; yabai -m display --focus 3
