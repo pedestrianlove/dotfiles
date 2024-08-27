@@ -16,13 +16,11 @@ if status is-interactive
     alias t="tmux"
     alias ta="tmux a"
     alias pa="php artisan"
-    alias sail="./vendor/laravel/sail/bin/sail"
     alias ls="ls --color=auto"
     alias ll="ls -la"
-    alias pstorm="phpstorm"
-    alias phpdoc="docker run --rm -v $PWD:/data phpdoc/phpdoc:3"
-    alias config="vim ~/.config/sway/config"
+    alias config="vim ~/.config/hypr/hyprland.conf"
     alias thu="sudo openconnect --protocol=nc thuvpn.twaren.net"
+    alias nthu="sudo openconnect --protocol=nc nthu.twaren.net"
 
     # Custom keybindings
     bind \cf ~/.config/tmux-sessionizer
