@@ -3,11 +3,22 @@
   "agent": {
     "explore": {
       "mode": "subagent",
-      "model": "openai/gpt-5.3-codex-spark"
+      "model": "openai/gpt-5.4-fast",
+      "tools": {
+        "arxiv-mcp-server*": true
+      }
+      // "model": "openai/gpt-5.3-codex-spark"
     },
     "general": {
       "mode": "subagent",
       "model": "openai/gpt-5.4-fast"
+    }
+  },
+  "mcp": {
+    "arxiv-mcp-server": {
+      "type": "local",
+      "command": ["uvx", "arxiv-mcp-server"],
+      "enabled": true
     }
   }
 }
