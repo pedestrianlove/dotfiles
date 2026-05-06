@@ -4,10 +4,10 @@
     "explore": {
       "mode": "subagent",
       "model": "openai/gpt-5.4-fast",
+      // "model": "openai/gpt-5.3-codex-spark",
       "tools": {
         "arxiv-mcp-server*": true
       }
-      // "model": "openai/gpt-5.3-codex-spark"
     },
     "general": {
       "mode": "subagent",
@@ -19,6 +19,14 @@
       "type": "local",
       "command": ["uvx", "arxiv-mcp-server"],
       "enabled": true
+    },
+    "excalidraw": {
+      "type": "remote",
+      "url": "https://mcp.excalidraw.com",
+      "enabled": true
     }
+  },
+  "permission": {
+    "external_directory": "deny"
   }
 }
